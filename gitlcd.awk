@@ -1,3 +1,15 @@
+# Gitlcd - Use your Gitlab contribution board as a simple LCD panel
+
+# ------------------------------------------------------------------------------
+# "THE BEER-WARE LICENSE" (Revision 42):
+# <zmey20000@yahoo.com> wrote this file. As long as you retain this notice you
+# can do whatever you want with this stuff. If we meet some day, and you think
+# this stuff is worth it, you can buy me a beer in return.    Mikhail Zakharov
+# ------------------------------------------------------------------------------
+
+# v1.0  2022.02.27  God save Ukraine
+
+
 BEGIN {
         Hl = 2                  # Header length
         Do = Hl + 1             # Data offset
