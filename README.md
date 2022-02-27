@@ -2,6 +2,8 @@
 
 ## Use your Gitlab contribution board as a simple LCD panel
 
+Hopefully, we'll see results [here](https://github.com/idfreech)
+
 ### Usage
 
 1. Setup passwordless Github connection to be able making pushes
