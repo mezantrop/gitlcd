@@ -21,6 +21,7 @@ END {
 
     for (i =1; i <= n; i++) {
         printf "Future: X: %d Y: %d Current: N: %d\n", X, Y, n >> log_file
+        system("git add gitlcd.* && git commit -m \"new commit\" && git push")
     }
     exit n
 }
