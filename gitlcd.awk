@@ -11,14 +11,14 @@
 
 
 BEGIN {
-        Hl = 2                  # Header length
-        Do = Hl + 1             # Data offset
-        MX = 53                 # Maximum X
-        MY = 7                  # Maximum Y
-        MN = 5                  # Maximum N
-        d[1] = "X: "; d[2] = "Y: "
-        script_file = ARGV[1]
-        log_file = ARGV[1]".log"
+    Hl = 2                  # Header length
+    Do = Hl + 1             # Data offset
+    MX = 53                 # Maximum X
+    MY = 7                  # Maximum Y
+    MN = 5                  # Maximum N
+    d[1] = "X: "; d[2] = "Y: "
+    script_file = ARGV[1]
+    log_file = ARGV[1]".log"
 }
 
 /^X:/           {x = X = $2 > MX ? 1 : $2} 
