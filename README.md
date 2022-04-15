@@ -1,6 +1,6 @@
 # Gitlcd
 
-## Turn your Gitlab contribution board into a simple LCD panel
+## Turn your Github contribution board into a simple LCD panel
 
 Hopefully, we'll see results [here](https://github.com/idfreech)
 
