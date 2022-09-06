@@ -2,6 +2,8 @@
 
 ## Turn your Github contribution board into a simple LCD panel
 
+<a href="https://www.buymeacoffee.com/mezantrop" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 Hopefully, we'll see results [here](https://github.com/idfreech)
 
 ### Usage
