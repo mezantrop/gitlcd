@@ -1,5 +1,5 @@
 X: 1
-Y: 7
+Y: 1
 # NB! The first two lines of the file are the mandatory fields of the header!
 # X - A week number. Set "X: 1" to start printing image from the beginning
 # Y - A day of the week starting from 1 - Sunday. Adjust Y to the current day of the week before the 1-st run of the script!
