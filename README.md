@@ -14,23 +14,6 @@ Hopefully, we'll see results [here](https://github.com/idfreech)
 
 `59 23 * * * cd /PATH/TO/gitlcd && awk -f gitlcd.awk gitlcd.mtx > /dev/null`
 
-Or create an Actions workflow:
-
-```yml
-name: Gitlcd
-on:
-  schedule:
-    - cron: '59 23 * * *'
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Update the board
-      run: bash -c "awk -f gitlcd.awk gitlcd.mtx > /dev/null"
-```
+Or use Actions workflow to automate the thing
 
 Don't hesitate to ping me on any issue: Mikhail Zakharov <zmey20000@yahoo.com>
